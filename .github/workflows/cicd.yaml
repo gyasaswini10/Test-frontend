@@ -36,7 +36,7 @@ jobs:
           git config --global user.name "gyasaswini10"
           git config --global user.email "gyasu1110@gmail.com"
 
-      # Step 7: Deploy the built app to GitHub Pages
+      # Step 7: Deploy the built apfufp to GitHub Pages
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
